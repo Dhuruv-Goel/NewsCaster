@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsCaster</string>
+    <string name="home">Home</string>
+    <string name="home1">Home</string>
+    <string name="sports">Sports</string>
+    <string name="science">Science</string>
+    <string name="health">Health</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="technology">Technology</string>
+    <string name="news_feed">News Feed</string>
+    <string name="tabLayout">Tab Layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="published_at">Published At</string>
+    <string name="ttttttttttttttttttttttttttttttttttttttttttt">ttttttttttttttttttttttttttttttttttttttttttt</string>
+    <string name="by_brijesh">By Brijesh</string>
+    <string name="hgfchgcgfcvgfcgfc_u_h_hfmv654ihbbcihbihbscihbsijbihs_bcihihscihihbshg_sgcg_sbjcx_jbicvihshbihvsdihvihvsdihvihsvdihvihvsihvbivsfihvihvihsvihvihvishfvihvhsvihvhivsihvhivihhvjk">hgfchgcgfcvgfcgfc u h hfmv654ihbbcihbihbscihbsijbihs bcihihscihihbshg sgcg sbjcx jbicvihshbihvsdihvihvsdihvihsvdihvihvsihvbivsfihvihvihsvihvihvishfvihvhsvihvhivsihvhivihhvjk</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:id="@+id/cardView"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mainHeading"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:text="@string/ttttttttttttttttttttttttttttttttttttttttttt"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/btnShare"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    android:backgroundTint="@color/white"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:padding="0dp"
+                    android:src="@drawable/baseline_share"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="6"
+                    android:padding="5dp"
+                    android:text="@string/hgfchgcgfcvgfcgfc_u_h_hfmv654ihbbcihbihbscihbsijbihs_bcihihscihihbshg_sgcg_sbjcx_jbicvihshbihvsdihvihvsdihvihsvdihvihvsihvbivsfihvihvihsvihvihvishfvihvhsvihvhivsihvhivihhvjk"
+                    android:textSize="15sp"
+                    tools:ignore="TextContrastCheck,TextSizeCheck" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imageView"
+                    tools:ignore="ContentDescription" />
+               
+                    
+
+                    
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/by_brijesh"
+                android:textColor="#82B1FF"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/published_at"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+
+
+                
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
